@@ -164,6 +164,8 @@ class ServerListPageState extends State<ServerListPage>
               .setSelectServerEntity(_serverModel.serverEntityList[index]);
           _serverModel.setSelectServerIndex(index);
           _appModel.setConfigRule(_serverModel.serverEntityList[index].name);
+
+          print("点击选择节点");
         },
         child: Material(
           borderRadius: BorderRadius.circular(10),

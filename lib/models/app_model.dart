@@ -64,6 +64,7 @@ class AppModel extends BaseModel {
 
   void togglePowerButton() async {
     if (vpnStatus == VpnStatus.connecting) {
+      print("在这个判断");
       Fluttertoast.showToast(
           msg: "正在连接中，请稍后...",
           toastLength: Toast.LENGTH_SHORT,

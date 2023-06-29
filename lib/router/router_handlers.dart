@@ -1,6 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:proxy_demo/pages/home/home_page.dart';
+import 'package:proxy_demo/pages/home_page.dart';
 
 import 'package:proxy_demo/pages/server_list.dart';
 import 'package:proxy_demo/pages/webview_widget.dart';

@@ -129,6 +129,7 @@ class ServerModel extends BaseModel {
 
   setServerEntityList(List<ServerEntity> serverEntityList) {
     _serverEntityList = serverEntityList;
+    print(_serverEntityList);
 
     _saveServerEntityList();
   }
@@ -143,6 +144,7 @@ class ServerModel extends BaseModel {
 
   setSelectServerIndex(int index) {
     _selectServerIndex = index;
+
 
     _saveSelectServerIndex();
 

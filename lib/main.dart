@@ -17,6 +17,7 @@ void main() async {
     ChangeNotifierProvider<AppModel>.value(value: appModel),
     ChangeNotifierProvider<ServerModel>.value(value: serverModel),
   ], child: ProxyDemo()));
+  
 }
 
 class ProxyDemo extends StatelessWidget {

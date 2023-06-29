@@ -25,6 +25,7 @@ class PowerButtonState extends State<PowerButton> {
   }
 
   Future<void> pressConnectBtn() async {
+    print("点几了");
     if (_serverModel.selectServerEntity == null) {
       Fluttertoast.showToast(
           msg: "请选择服务器节点",
