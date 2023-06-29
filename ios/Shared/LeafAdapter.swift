@@ -38,6 +38,7 @@ private enum State {
     case temporaryShutdown
 }
 
+@available(iOS 12.0, *)
 private extension Network.NWPath.Status {
     /// Returns `true` if the path is potentially satisfiable.
     var isSatisfiable: Bool {
